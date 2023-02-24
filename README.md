@@ -8,6 +8,6 @@
 
 ![Public school location in Seattle](https://github.com/Gunehee/GEOG458_MapDesignAndTileGeneration/blob/main/img/map%20tile%202.png)
 
-![Public school location in Seattle] with base map](https://github.com/Gunehee/GEOG458_MapDesignAndTileGeneration/blob/main/img/map%20tile%203.png)
+![Public school location in Seattle with base map](https://github.com/Gunehee/GEOG458_MapDesignAndTileGeneration/blob/main/img/map%20tile%203.png)
 
 ![Theme of land use and environment in Seattle](https://github.com/Gunehee/GEOG458_MapDesignAndTileGeneration/blob/main/img/map%20tile%204.png)
