@@ -65,6 +65,21 @@
         #menu a.active:hover {
             background: #3074a4;
         }
+
+        scalebar {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 5px 10px;
+            font-size: 12px;
+            line-height: 1.5;
+            border-radius: 3px;
+            color: #000;
+            font-family: Arial, sans-serif;
+            z-index: 1;
+        }
+
     </style>
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
 </head>
@@ -81,6 +96,16 @@
             zoom: 12, // starting zoom
             center: [-122.2559435, 47.6002614] // starting center
         });
+
+        let scale = new mapboxgl.ScaleControl({
+            maxWidth: 80,
+            unit: 'imperial',
+            position: 'top-left'
+        });
+        map.addControl(scale)
+
+        let nav = new mapboxgl.NavigationControl();
+        map.addControl(nav, 'bottom-right');
 
         map.on('load', () => { //simplifying the function statement: arrow with brackets to define a function
 
