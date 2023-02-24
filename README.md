@@ -4,25 +4,25 @@
 
 # Map design with four tiles 
 
-* Base map
+- **Base map**
 
 ![Base map](https://github.com/Gunehee/GEOG458_MapDesignAndTileGeneration/blob/main/img/map%20tile%201.png)
 
 This is the base map of central Seattle with a layer of different colors. I used the zoom level at a minimum of 3 and a maximum of 14. You are able to see the area of Seattle properly as long as you zoom in the map between 3 to 14. I set up the starting zoom level as 12, so you can see the central area of Seattle on the Base map. This layer indicates some different geographical features such as different colors of transit labels and landmarks. Also, it has changed some font style and level, so it visually looks much better.
 
-* Public school location in Seattle
+- **Public school location in Seattle**
 
 ![Public school location in Seattle](https://github.com/Gunehee/GEOG458_MapDesignAndTileGeneration/blob/main/img/map%20tile%202.png)
 
 This is the layer (tile) of the general map with dots that indicates the location of every public school in Seattle. I used the zoom level at a minimum of 3 and a maximum of 14 for this tile as well. Therefore, you are able to see the area of Seattle properly as long as you zoom in the map between 3 to 14. The examined geographic area of this map is also a central region of Seattle from White Center to North Gate. You can see the number and location of the public school and analyze the distribution of the public school location. You can see how the public schools are distributed in equilibrium.
 
-* Public school location in Seattle with base map
+- **Public school location in Seattle with base map**
 
 ![Public school location in Seattle with base map](https://github.com/Gunehee/GEOG458_MapDesignAndTileGeneration/blob/main/img/map%20tile%203.png)
 
 This is the layer (tile) of the generated Base map with the data of every public school located in Seattle used above. I used the zoom level at a minimum of 3 and a maximum of 14 for this tile, and you can see the area of Seattle correctly as long as you zoom in on the map between 3 to 14. The examined geographic location of this map is also a center of Seattle which has no significant difference from the previous map tile. However, you can see the map with the information used on the Base map, and you can analyze the map not only for the distribution of the public school but also for the distribution of landmarks and transit locations. Meanwhile, the color of the tile makes it much easier to see the map than the general map. If you add more sources and features on the Base map, you will see more differences and distributions that will help you better analyze the area of Seattle.
 
-* Theme of land use and environment in Seattle
+- **Theme of land use and environment in Seattle**
 
 ![Theme of land use and environment in Seattle](https://github.com/Gunehee/GEOG458_MapDesignAndTileGeneration/blob/main/img/map%20tile%204.png)
 
